@@ -1,4 +1,3 @@
-import PropTypes from 'prop-types';
 import { useDispatch, useSelector } from 'react-redux';
 import { actions } from '../../reducer';
 import styles from './Field.module.css';
@@ -60,6 +59,3 @@ export default function Field() {
   );
 }
 
-Field.propTypes = {
-	onCellClick: PropTypes.func.isRequired,
-};
